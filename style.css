@@ -3,27 +3,27 @@ body {
 }
 
 h1 {
+    align-content   : center;
     color           : #D9B08C;
-    stroke          : #FFCB9A;
-    stroke-width    : 1px;
-    stroke-linejoin : round;
-    animation       : 2s pulsate infinite;
+    text-decoration : underline;
+    font            : bold 60px Verdana;
 }
 
 /* Navigation Bar Styles */
 .topnav {
+    align-content   : center;
     background-color: #116466;
     overflow        : hidden;
 }
 
 .topnav a {
-    float           : left;
+    float           : inherit;
     display         : block;
     color           : #D9B08C;
     text-align      : center;
     padding         : 14px 16px;
     text-decoration : none;
-    font-size       : 17px;
+    font            : bold 20px, Verdana;
 }
 
 .topnav a:hover {
