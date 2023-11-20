@@ -1,16 +1,20 @@
 body {
-    margin              : 0;
-    background-color    : #116466;
+    margin: 0;
+    background-color: #D1E8E2;
 }
 
 h1 {
-    text-align      : center;
-    color           : #D9B08C;
-    font            : bold 50px Verdana;
+    padding: 40px 0px 40px 0px;
+    margin: 0;
+    background-color: #2C3531;
+    text-align: center;
+    color: #FFCB9A;
+    font: bold 50px Verdana;
 }
 
 /* Navigation Bar Styles */
 .topnav {
+    background-color: #116466;
     overflow        : hidden;
     display         : flex;
     justify-content : center;
@@ -18,7 +22,7 @@ h1 {
 
 .topnav a {
     float           : left;
-    color           : #2C3531;
+    color           : #FFCB9A;
     text-align      : center;
     padding         : 14px 16px;
     text-decoration : none;
@@ -26,7 +30,8 @@ h1 {
 }
 
 .topnav a:hover {
-    background-color: #FFCB9A;
+    background-color: #D9B08C;
+    color           : #2C3531;
 }
 
 .topnav a.active {
