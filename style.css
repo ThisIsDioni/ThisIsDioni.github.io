@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin          : 0;
     background-color: #D1E8E2;
 }
 
@@ -14,7 +14,6 @@ h1 {
 
 /* Navigation Bar Styles */
 .topnav {
-    background-color: #116466;
     overflow        : hidden;
     display         : flex;
     justify-content : center;
