@@ -1,24 +1,24 @@
 body {
+    margin              : 0;
     background-color    : #116466;
 }
 
 h1 {
     text-align      : center;
     color           : #D9B08C;
-    text-decoration : underline;
-    font            : bold 60px Verdana;
+    font            : bold 50px Verdana;
 }
 
 /* Navigation Bar Styles */
 .topnav {
     background-color: #116466;
-    overflow        : hidden;
-    margin          : auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .topnav a {
-    float           : inherit;
-    display         : block;
+    float           : left;
     background-color: #D1E8E2;
     color           : #2C3531;
     text-align      : center;
