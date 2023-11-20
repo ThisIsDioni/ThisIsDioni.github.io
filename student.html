@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
     <title>Student Projects</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+
 <body>
     <h1 align="center">Student Projects</h1>
-    <div align="center" class="topnav">
+    <div class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
-        <a class="active" href="student.html">Student Projects</a>
+        <a href="student.html" class="active">Student Projects</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 </body>
 </html>
