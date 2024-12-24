@@ -37,3 +37,8 @@ h1 {
     background-color: #2C3531;
     color           : #FFCB9A;
 }
+
+.cd-disk img {
+    width: 20%;
+    height: 20%;
+}
